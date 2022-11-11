@@ -58,6 +58,6 @@ describe('Homepage', () => {
       </BrowserRouter>,
     );
 
-    await waitFor(() => expect(screen.getByText('Talk Test')).toBeInTheDocument());
+    await waitFor(() => expect(screen.getByText('Talk Test 1')).toBeInTheDocument());
   });
 });
